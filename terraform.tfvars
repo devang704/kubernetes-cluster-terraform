@@ -1,0 +1,16 @@
+env                  = "demo"
+project              = "rnd"
+ami                  = "ami-0667149a69bc2c367"
+instance_type        = "t2.micro"
+master_instance_type = "t2.medium"
+worker_instance_type = "t2.medium"
+region               = "ap-southeast-1"
+public_subnet_count   = 2
+private_subnet_count  = 2
+master_instance_count = 3
+worker_instance_count = 2
+ebs_volume_count      = 0
+ec2_ebs_volume_size   = [5, 5]
+ec2_device_names      = ["/dev/sdd", "/dev/sde"]
+ubuntu_ami_id         = "ami-07eaf27c7c4a884cf"
+centos_ami_id         = "ami-0adfdaea54d40922b"
